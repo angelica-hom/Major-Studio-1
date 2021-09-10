@@ -22,7 +22,7 @@ function fetchTermsData(termCategory) {
     })
   }
 
-fetchTermsData("online_media_type")
+fetchTermsData("topic")
 
 /*
 Task: Play around with the different categories listed here:
