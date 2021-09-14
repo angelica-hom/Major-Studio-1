@@ -1,5 +1,4 @@
-**Concept #1: Perserverance and Triumph: The Evolution of African-American Music
-**
+**Concept #1: Perserverance and Triumph: The Evolution of African-American Music**
 ![image](https://user-images.githubusercontent.com/90013439/133333965-c986465d-26fc-473b-a818-a5a8e59c59a0.png)
 
 This viz will explore items related to music from the Nat'l Museum of African American History and Culture. This includes 261 items: photos, instruments, clothing/costumes, posters/tickets, and sheet music. The data set's quality is good! An accurate and varied collection over a large span of time.
