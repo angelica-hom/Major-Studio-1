@@ -7,6 +7,7 @@ How did the origins of African-American music arise from the conditions of slave
 
 I chose a hybrid of timeline and pin map to explore the items throughout the music's evolution and simultaneously see patterns in the geographic spread of the influence of African-American music.
 
+
 **Concept #2: In Fashion: A Timeline of African-American Clothing**
 ![image](https://user-images.githubusercontent.com/90013439/133335992-9d3a692e-85f8-4bae-81ad-46f0745dd83f.png)
 
@@ -15,6 +16,7 @@ This viz will explore clothing items from the Nat'l Museum of African American H
 Could clothing reflect the struggles and successes of African-American lives throughout history? Was clothing worn for protest, entertainment, or utility?
 
 I chose a timeline method mixed with a gallery wall to show the evolution of fashion through a unique scrolling experience (similar to Pinterest or viewing a fashion museum in person) with color-coded keywords.
+
 
 **Concept #3: Worth a Thousand Words: African-Americans' Lives Through Photographs**
 ![image](https://user-images.githubusercontent.com/90013439/133336321-91ba478e-b7a9-443e-8675-27115fda4614.png)
