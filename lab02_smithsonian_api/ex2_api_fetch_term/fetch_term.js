@@ -22,14 +22,17 @@ function fetchTermsData(termCategory) {
     })
   }
 
-fetchTermsData("topic")
+fetchTermsData("online_media_type")
+fetchTermsData("culture")
+fetchTermsData("data_source")
+fetchTermsData("object_type")
 
 /*
 Task: Play around with the different categories listed here:
 http://edan.si.edu/openaccess/apidocs/#api-search-terms
 Questions: 
 - What other media types are available? 
-- How many cultures are represented?
-- What acronyms for museums are there?
+- How many cultures are represented? 6078
+- What acronyms for museums are there? 34
 
 */

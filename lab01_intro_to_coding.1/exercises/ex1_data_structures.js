@@ -32,7 +32,7 @@ var years = [
 
 // Task 1
 // Console log the length of each Array
-console.log(/* COMPLETE ME */)
+console.log(names.length)
 console.log(/* COMPLETE ME */)
 console.log(/* COMPLETE ME */)
 

@@ -22,7 +22,7 @@ function fetchContentDataById(id) {
   })
 }
 
-fetchContentDataById("edanmdm:NMAI_270941");
+fetchContentDataById("edanmdm:ofeo-sg_2017-0593A");
 
 // Task 1: Find a different object on https://collections.si.edu/search/ and retrieve the data with the code above
 // Make sure to check the box "Only return results with CC0 media" when searching
