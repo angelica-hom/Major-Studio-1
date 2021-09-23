@@ -82,9 +82,13 @@ function addObject(objectData) {
 
   myArray.push({
     id: objectData.id,
-    title: objectData.title,
     link: objectData.content.descriptiveNonRepeating.record_link,
-    place: currentPlace
+    title: objectData.title,
+    photographNames: objectData.content.freetext.name,
+    place: objectData.content.freetext.place,
+    date: objectData.content.freetext.date,
+    description: objectData.content.freetext.notes,
+    topic: objectData.content.indexedStructured.topic
   })
 }
 
