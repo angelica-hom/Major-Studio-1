@@ -26,6 +26,7 @@ fetchTermsData("online_media_type")
 fetchTermsData("culture")
 fetchTermsData("data_source")
 fetchTermsData("object_type")
+fetchTermsData("date")
 
 /*
 Task: Play around with the different categories listed here:

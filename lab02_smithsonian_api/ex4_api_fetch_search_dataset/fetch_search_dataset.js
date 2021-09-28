@@ -84,11 +84,12 @@ function addObject(objectData) {
     id: objectData.id,
     link: objectData.content.descriptiveNonRepeating.record_link,
     title: objectData.title,
-    photographNames: objectData.content.freetext.name,
-    place: objectData.content.freetext.place,
-    date: objectData.content.freetext.date,
-    description: objectData.content.freetext.notes,
-    topic: objectData.content.indexedStructured.topic
+    //photographNames: objectData.content.freetext.name,
+    //place: objectData.content.freetext.place,
+    date: objectData.content.indexedStructured.date[0]
+    //date2: objectData.content.freetext.date[0].content
+    //description: objectData.content.freetext.notes,
+    //topic: objectData.content.indexedStructured.topic
   })
 }
 
