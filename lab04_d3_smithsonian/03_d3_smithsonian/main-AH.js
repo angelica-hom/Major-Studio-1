@@ -42,8 +42,8 @@ function displayData(){
   
   // define dimensions and margins for the graphic
   const margin = ({top: 100, right: 50, bottom: 100, left: 80})
-  const width = 1400;
-  const height = 700;
+  const width = 1250;
+  const height = 600;
 
   // let's define our scales. 
   // yScale corresponds with amount of photographs per decade
@@ -76,7 +76,8 @@ function displayData(){
      .attr('y', function(d){return yScale(d.count) })
      .attr('height', function(d){return yScale(0)-yScale(d.count) })
      .attr('width', function(d){return xScale.bandwidth() - 2 })
-     .style('fill', function(d) {return sequentialScale(d.count);});
+     //.style('fill', function(d) {return sequentialScale(d.count);});
+     .attr('fill', '#F7EFCD');
  
 
   // AXES
@@ -95,10 +96,13 @@ function displayData(){
   .attr('transform', `translate(0,${height - margin.bottom})`)
   .call(xAxis)
   .selectAll('text')	
-  .style('text-anchor', 'end')
+  .style('text-anchor', 'middle')
   .attr('dx', '-.6em')
-  .attr('dy', '-0.1em')
-  .attr('transform', function(d) {return 'rotate(-65)' });
+  .attr('dy', '1.2em')
+  //.attr('transform', function(d) {return 'rotate(-65)' })
+  .attr('fill', 'white')
+  //.attr('font-weight', 'bold')
+  .attr('font-family', 'Roboto');
 
       // Labelling the graph
     svg.append('text')
@@ -107,7 +111,10 @@ function displayData(){
     .attr('font-size', 20)
     .attr('y', margin.top-20)
     .attr('x', margin.left)
-    .attr('fill', 'black')
+    .attr('fill', 'white')
     .attr('text-anchor', 'start')
+    .attr('dx', '12em')
+    .attr('font-family', 'Roboto')
+    .attr('font-weight', 'bold')
     .text('Reclamation of African American Power and Identity through Photography')
 }
