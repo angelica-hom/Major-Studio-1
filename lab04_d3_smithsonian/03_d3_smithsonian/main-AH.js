@@ -116,7 +116,7 @@ function displayData(){
     .attr('dx', '12em')
     .attr('font-family', 'Roboto')
     .attr('font-weight', 'bold')
-    .text('Reclamation of Asian American Power and Identity through Photography')
+    .text('Reclamation of African American Power and Identity through Photography')
     
     
     
