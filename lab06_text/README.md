@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Major Studio 1 - Lab 7: Working with text
 
 
@@ -28,4 +29,6 @@
 [Regular Expressions in Javascript](https://shiffman.net/a2z/regex/)  
 
 
+=======
+>>>>>>> 957646d9c7b2b7a37102d3115c5ac8b0d4599f9b
 
