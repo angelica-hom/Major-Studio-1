@@ -5,6 +5,14 @@ html, body {
     padding: 0; 
 } 
 
+#header {
+    text-align: center;
+}
+
+p {
+padding: 0px 200px;
+}
+
 select {
     margin: 10px 0 0 10px;
 }
@@ -12,6 +20,7 @@ select {
 #container {
     position: absolute;
     width: 100%;
-    top: 35px;
+    top: 179px;
     bottom: 0;
+    margin: 0;
 }
