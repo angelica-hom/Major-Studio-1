@@ -26,20 +26,8 @@ chart.minFontSize(7);
 // Set font family name.
 chart.fontFamily('Garamond');
 
-// Set bottom bound
-chart.left('2%');
-
 // Initiate drawing the chart
 chart.draw();
-
-// create the second series (line)  
-//var chart = chart.line(seriesData_2);
-
-// configure the visual settings of the second series
-//chart.normal().fontColor("#000000");
-//chart.hovered().fontColor("#1976d2");
-//chart.selected().stroke("#04b404", 4);
-
 
 // Change the root word based on dropdown menu
 function switchType() {
@@ -48,4 +36,4 @@ function switchType() {
 }
 
 // Disable tooltip for all series
-chart.tooltip(false);
+//chart.tooltip(false);
