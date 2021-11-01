@@ -9,11 +9,19 @@ body {
 #header {
     color: #222222;
     text-align: center;
-    font-family: Garamond;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: -5px;
 }
 
 p {
-    padding: 0px 200px;
+    font-weight: 500;
+    padding: 0px 209px;
 }
 
 select {
@@ -25,9 +33,9 @@ select {
 #container {
     position: absolute;
     width: 55%;
-    top: 179px;
+    top: 250px;
     bottom: 0;
-    margin: 0;
+    margin-left: 2em;
 }
 
 path {

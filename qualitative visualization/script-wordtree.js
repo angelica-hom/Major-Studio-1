@@ -18,7 +18,7 @@ chart.container("container");
 chart.word("man");
 
 // Configure the maximum font size
-chart.maxFontSize(40);
+chart.maxFontSize(35);
 
 // Set chart's minimum font size
 chart.minFontSize(10);

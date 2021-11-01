@@ -7,16 +7,26 @@
     <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-wordtree.min.js"></script>
     <!-- p5.js -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
-    <!-- RiTa.js-->
-    <script src="https://unpkg.com/rita"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="style-wordtree.css">
-    <title>Word Tree</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Worth a Thousand Words</title>
 </head>
 
 <body>
     <div id="header">
-        <h1>Word Tree</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <h1>Worth a Thousand Words</h1>
+        <p>19th century American history is defined by a few important events: the Civil War, the abolitionist movement, emancipation, and Juneteenth.
+        During the same century, early photography underwent rapid advances that made the technology available to recently-freed African Americans. African Americans 
+        used photography as a tool for racial justice to fight against established racist misrepresentations and to take control of their own visual narrative through 
+        self-representation. <br>Through the Smithsonian's Open Access initiative, this data visualization allows you to explore the titles of the photography collection at the 
+        National Museum of African American History & Culture, and to discover how African American men and women used their newfound creative freedom to redefine African 
+        American identity.</p>
+        
+        <p><b>How to: </b>Use the drop-down menu at the top to view the different word trees between "man" and "woman". Click on any word to drill up or down within the word 
+        tree.</p>
         <select id="typeSelect" onchange="switchType()">
             <option value="man" selected>MAN</option>
             <option value="woman">WOMAN</option>
