@@ -21,7 +21,7 @@ chart.word("man");
 chart.maxFontSize(40);
 
 // Set chart's minimum font size
-chart.minFontSize(7);
+chart.minFontSize(10);
 
 // Set font family name.
 chart.fontFamily('Garamond');
