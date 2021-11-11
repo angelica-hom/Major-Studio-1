@@ -15,7 +15,7 @@ var chart = anychart.wordtree(data, "as-tree");
 chart.container("container");
 
 // Set the root word when data viz initializes
-chart.word("man");
+//chart.word("man");
 
 // Configure the maximum font size
 chart.maxFontSize(35);
