@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: auto;
     padding: 0;
-    background-color: #EEE6E1;
+    background-color: #FFFBF2;
 } 
 
 #header {
@@ -33,13 +33,12 @@ select {
 #container {
     position: absolute;
     width: 55%;
-    top: 250px;
+    top: 0;
     bottom: 0;
-    margin-left: 2em;
 }
 
 path {
-    fill: #EEE6E1;
+    fill: #FFFBF2;
 }
 
 text {
