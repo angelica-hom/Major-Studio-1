@@ -1,8 +1,36 @@
 [
-    {"id": 0, "value": "Photograph", "parent": -1},
-    {"id": 1, "value": "a man with a mustache wearing a suit", "parent": 0},
-    {"id": 2, "value": "of", "parent": 0},
-    {"id": 3, "value": "a man wearing a suit , derby hat and holding a suitcase", "parent": 2},
-    {"id": 4, "value": "the Knoxville College glee club", "parent": 2},
-    {"id": 5, "value": "portrait of a woman in a black dress", "parent": 0}
+ {
+    "id": 0,
+    "value": "Photograph",
+    "parent": -1
+ },
+{
+    "id": 1,
+    "value": "a man with a mustache wearing a suit",
+    "parent": 0,
+    "filename":"Mustache wearing a suit.jpg"
+},
+{
+    "id": 2,
+    "value": "of",
+    "parent": 0
+},
+{
+    "id": 3,
+    "value": "a man wearing a suit , derby hat and holding a suitcase",
+    "parent": 2,
+    "filename":"Derby.jpg"
+},
+{
+    "id": 4,
+    "value": "the Knoxville College glee club",
+    "parent": 2,
+    "filename":"Knoxville.jpg"
+},
+{
+    "id": 5,
+    "value": "portrait of a woman in a black dress",
+    "parent": 0,
+    "filename":"Black dress.jpg"
+}
 ]
