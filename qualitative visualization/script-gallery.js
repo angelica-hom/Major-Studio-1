@@ -3,7 +3,7 @@
 // in our index.html file
 
 // load JSON using d3.json
-d3.json('./data.json')
+d3.json('data/data.json')
   .then( json => {
       // execute our 
       // display images function
@@ -44,15 +44,5 @@ function displayImages(json){
             return './images/' + d.filename
         });
 
-    // create a paragraph that will
-    // hold the object date
-    card.append('p')
-        .attr('class', 'object-date')
-        .text(d=>d.date);
 
-    // create a heading tag
-    // that will be the object title
-    card.append('h2')
-        .attr('class', 'title')
-        .text(d=>d.title);
 }

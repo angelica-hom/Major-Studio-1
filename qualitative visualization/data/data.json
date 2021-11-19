@@ -8,7 +8,7 @@
     "id": 1,
     "value": "a man with a mustache wearing a suit",
     "parent": 0,
-    "filename":"Mustache wearing a suit.jpg"
+    "filename":"Mustache.jpg"
 },
 {
     "id": 2,
@@ -31,6 +31,6 @@
     "id": 5,
     "value": "portrait of a woman in a black dress",
     "parent": 0,
-    "filename":"Black dress.jpg"
+    "filename":"Dress.jpg"
 }
 ]
