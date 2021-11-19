@@ -20,7 +20,7 @@
 //  ]} 
 //];
 
-anychart.data.loadJsonFile("_data/data.json", function (data) {
+anychart.data.loadJsonFile("https://cdn.anychart.com/samples-data/word-tree/anychart-word-tree/data.json", function (data) {
   
   //Create data tree
   var tableData = anychart.data.tree(data, 'as-table');
