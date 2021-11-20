@@ -35,6 +35,18 @@ anychart.data.loadJsonFile("data/data.json", function (data) {
   
   // Disable tooltip for all series
   //chart.tooltip(false);
+  
+  chart.title('Click on the chart')
+  
+  var counter = 0;
+  
+  //Set event listener on the chart.
+  chart.listen('mouseover', function (e) {
+    chart.title('You are hovering.');
+  });
+  
+  chart.listen('mouseout', function (e) {
+    chart.title('Click on the chart');
+  })
 
 });
-
