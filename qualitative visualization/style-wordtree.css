@@ -30,7 +30,7 @@ select {
     font-size: 13px;
 }
 
-#container {
+#vis {
     position: absolute;
     width: 50%;
     top: 0;
@@ -43,7 +43,11 @@ path {
 
 text {
     fill: #222222;
+}
+
+text:hover {
     cursor: pointer;
+    font-style: italic;
 }
 
 #app {
