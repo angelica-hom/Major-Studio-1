@@ -81,8 +81,8 @@ function addObject(objectData) {
   }
 
   myArray.push({
-   objectID: objectData.id,
-    link: objectData.content.descriptiveNonRepeating.record_link,
+    //objectID: objectData.id,
+    //link: objectData.content.descriptiveNonRepeating.record_link,
     title: objectData.title,
     //date: objectData.content.indexedStructured.date
     //primaryImage: objectData.content.descriptiveNonRepeating.online_media
