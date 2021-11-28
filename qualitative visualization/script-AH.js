@@ -24,7 +24,7 @@ chart.fontFamily('Garamond');
 chart.draw();
 
 // Set the root word
-//chart.word("Photograph");
+chart.word("Photograph");
   
 // Change the root word based on dropdown menu
 function switchType() {
@@ -32,30 +32,17 @@ function switchType() {
   chart.word(select.value);
 }
 
+const element = document.querySelector("tspan");
+
+element.addEventListener("mouseover", event => {
+  console.log("Mouse in");
+});
+
+element.addEventListener("mouseout", event => {
+  console.log("Mouse out");
+});
+  
 // Disable tooltip for all series
 //chart.tooltip(false);
-$("#vis").click(function() {
-  const nodes = $("[data-ac-wrapper-id='7'] text").children();
-  console.log("starting all over");
-  let sentence = '';
-  if(nodes) {
-    console.log(nodes)
-    for(let i=0;i<nodes.length;i++) {
-      const textElement=nodes[i];
-      sentence+=textElement.textContent.trim();
-      sentence+=' ';
-    }
-    
-    sentence = sentence.trim();
-  
-    if(sentence=="Photograph of Maggie Hickman in a cap and gown") {
-      window.open("https://nmaahc.si.edu/object/nmaahc_2011.36.154?destination=edan-search/collection_search%3Fedan_local%3D1%26edan_q%3Dhickman")
-    }
-    else if(sentence=="Photograph of a baby sitting in a chair") {
-      window.open("https://www.google.com/")
-    }
-    console.log(sentence);
-  }
-})
 
 });

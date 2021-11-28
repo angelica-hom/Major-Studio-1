@@ -1,0 +1,36 @@
+#vis {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.class {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: steelblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 12px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2.0px;
+}

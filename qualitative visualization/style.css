@@ -3,8 +3,20 @@ body {
     height: 100%;
     margin: auto;
     padding: 0;
-    background-color: #FFFBF2;
+    background-color: #0E151C;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 } 
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 #header {
     color: #222222;
@@ -32,20 +44,21 @@ select {
 
 #vis {
     position: absolute;
-    width: 100%;
+    width: 95%;
     top: 50px;
     bottom: 0;
+    padding-left: 50px;
 }
 
 path {
-    fill: #FFFBF2;
+    fill: #0E151C;
 }
 
 text {
-    fill: #222222;
+    fill: #FFFFFF;
 }
 
-text:hover {
+tspan:hover {
     cursor: pointer;
     font-style: italic;
 }
