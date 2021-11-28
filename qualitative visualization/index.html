@@ -15,21 +15,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
     
     <title>Worth a Thousand Words</title>
 </head>
 
 <body>
-    <div id="header">
-        <!-- <h1>Worth a Thousand Words</h1>
-        <p>19th century American history is defined by a few important events: the Civil War, the abolitionist movement, emancipation, and Juneteenth.
-        During the same century, early photography underwent rapid advances that made the technology available to recently-freed African Americans. African Americans 
-        used photography as a tool for racial justice to fight against established racist misrepresentations and to take control of their own visual narrative through 
-        self-representation. <br>Through the Smithsonian's Open Access initiative, this data visualization allows you to explore the titles of the photography collection at the 
-        National Museum of African American History & Culture, and to discover how African American men and women used their newfound creative freedom to redefine African 
-        American identity.</p> -->
-        
+    <div id="header" class="container">
+        <div class="parallax">
+            <h1 class="headline">Worth a Thousand Words</h1>
+            <h2 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec faucibus leo. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Cras rhoncus malesuada leo, et rutrum ipsum accumsan nec. Sed faucibus mollis porta. Interdum et malesuada 
+            fames ac ante ipsum primis in faucibus. Nam tincidunt cursus est, vel gravida elit suscipit vel. Donec non tempor leo, vitae gravida ligula. 
+            Mauris laoreet pretium urna nec porttitor. Sed dignissim lorem ac nisl ultrices, a tristique metus varius. Nulla pellentesque ornare arcu, eu 
+            laoreet odio euismod nec. Ut at sodales sem, ac facilisis sem. Donec scelerisque accumsan est, in viverra metus blandit in.</h2>
+        </div>
+    </div>
+    <div id="vis" class="container">
         <select id="typeSelect" onchange="switchType()">
             <option value="Photograph">Photograph (135)</option>
             <option value="Photographic">Photographic (88)</option>
@@ -58,9 +59,8 @@
             <option value="Wedding">Wedding portrait (1)</option>
         </select>
     </div>
-    <div id="vis" class="container"></div>
+    
     <script src="Jquery.min.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
