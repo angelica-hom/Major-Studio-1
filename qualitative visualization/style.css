@@ -11,6 +11,13 @@ body {
     animation-fill-mode: forwards;
 }
 
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+}
+
 #header {
     background-color: #0E151C;
     display: flex;
@@ -24,13 +31,6 @@ body {
     animation-fill-mode: forwards;
 }
 
-.container {
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    padding: 0;
-}
-
 .parallax {
     position: absolute;
     top: 0;
@@ -39,6 +39,16 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.parallax img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    opacity: 0.5;
 }
 
 @keyframes fadeInAnimation {
@@ -51,7 +61,10 @@ body {
 }
 
 h1, h2 {
-    color: #ffffff;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    
 }
 
 h1 {
@@ -76,7 +89,7 @@ path {
 }
 
 text {
-    fill: #FFFFFF;
+    fill: #FFF;
 }
 
 tspan:hover {
