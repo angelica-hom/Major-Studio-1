@@ -212,6 +212,11 @@ chart.fontFamily('Garamond');
 // Initiate drawing the chart
 chart.draw();
 
+// drill up a level
+function drillUpALevel() {
+  chart.drillUp();
+}
+
 // Set the root word
 //chart.word("Photograph");
   
@@ -260,7 +265,19 @@ window.addEventListener('scroll', function () {
   const parallax = document.querySelector('.parallax');
   let scrollPosition = window.pageYOffset;
   
-  parallax.style.transform = 'translateY(' + scrollPosition * .5 + 'px)';
+  parallax.style.transform = 'translateY(' + scrollPosition * .7 + 'px)';
 })
+
+document.addEventListener('mousemove', parallax);
+function parallax (e) {
+  document.querySelectorAll('.object').forEach(function(move) {
+    var moving_value = move.getAttribute("data-value");
+    var x = (e.clientX * moving_value) / 250;
+    var y = (e.clientY * moving_value) / 250;
+    
+    move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+  });
+  
+};
 
 //});
